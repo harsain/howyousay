@@ -4,7 +4,8 @@
   "description": "This is a bot for the HowYouSay Service",
   "main": "index.js",
   "scripts": {
-    "start": "node server & npm server:tunnel",
+    "start": "node server",
+    "start:local": "node server & npm server:tunnel",
     "server:tunnel": "lt --port 3000 --subdomain howyousay"
   },
   "engines": {
