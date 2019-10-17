@@ -1,0 +1,29 @@
+{
+  "name": "howyousaybbot",
+  "version": "1.0.0",
+  "description": "This is a bot for the HowYouSay Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server & npm server:tunnel",
+    "server:tunnel": "lt --port 3000 --subdomain howyousay"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "keywords": [
+    "slack",
+    "slash command"
+  ],
+  "author": "Zendesk - HowYouSay",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
